@@ -9,3 +9,20 @@ body {
   
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 970px;
+  padding: 0 10px;
+}
+
