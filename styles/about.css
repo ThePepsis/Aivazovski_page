@@ -1,6 +1,6 @@
 .about {
   text-align: center;
-  padding: 60px 30px 100px;
+  padding: 60px 0 100px;
   color: var(--color-font-black);
   background: var(--bg-main-gray);
 }

@@ -39,7 +39,7 @@
   </header>
 
   <main aria-label="main">
-    <section class="home" aria-label="section home">
+    <section class="home" aria-label="section home" id="home-id">
     <div class="container">
       <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
       <p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
@@ -83,8 +83,38 @@
     </section>
   </main>
   
-  <footer>
+  <footer class="contacts" aria-label="section contacts" id="contacts-id">
+      <div class="container">
+        <h2 class="contacts-title" aria-label="title">Contacts</h2>
+        <button class="contacts-btn" aria-label="button to the site ayvazovskiy.su">
+          <a href="https://ayvazovskiy.su" target="_blank" class="contacts-btn-link">ayvazovskiy.su</a>
+        </button>
+        
+        <address class="socials" aria-label="social icons">
+          <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
+            <svg class="social-icon" aria-label="youtube icon">
+              <use href="assets/sprites.svg#youtube-icon"></use>
+            </svg>
+          </a>  
+          <a href="https://linkedin.com" target="_blank" aria-label="link to linkedin">
+            <svg class="social-icon" aria-label="linkedin icon">
+              <use href="assets/sprites.svg#linkedin-icon"></use>
+            </svg>
+          </a>  
+          <a href="https://instagram.com" target="_blank" aria-label="link to instagram">
+            <svg class="social-icon" aria-label="instagram icon">
+              <use href="assets/sprites.svg#inst-icon"></use>
+            </svg>
+          </a>  
+          <a href="https://facebook.com" target="_blank" aria-label="link to facebook">
+            <svg class="social-icon" aria-label="facebook icon">
+              <use href="assets/sprites.svg#facebook-icon"></use>
+            </svg>
+          </a>  
+        </address>
 
+        <p class="contacts-description" aria-label="description">More works you can see in these social networks</p>
+      </div>
   </footer>
 </body>
 
